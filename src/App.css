@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 main {
-  margin: 0px 12px 75px;
+  margin: 0px 50px 75px;
   min-width: 259px;
   padding-top: 100px;
 }
@@ -80,7 +80,7 @@ nav * {
   align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 4rem;
+  height: 5rem;
 }
 nav h1 {
   color: white;
@@ -632,7 +632,7 @@ textarea.form-input {
   flex-direction: column;
   gap: 5rem;
   align-items: center;
-  align-items: flex-start;
+  text-align: center;
 }
 .text-sans-serif {
   font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -677,6 +677,11 @@ textarea.form-input {
   text-transform: uppercase;
   font-size: 0.75rem;
   cursor: pointer;
+}
+
+.top-card {
+  display: flex;
+  flex-direction: row;
 }
 @media (min-width: 450px) {
   .photos-item {
@@ -810,6 +815,7 @@ textarea.form-input {
 @media (min-width: 1024px) {
   main {
     margin-bottom: 60px;
+    margin: 0px 12px 75px;
   }
   .sidebar,
   article {
@@ -818,7 +824,6 @@ textarea.form-input {
   }
   .main-content {
     position: relative;
-    width: max-content;
     margin: auto;
   }
   .service-list {
@@ -829,6 +834,8 @@ textarea.form-input {
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    align-items: flex-start;
+    text-align: left;
   }
 }
 
@@ -894,5 +901,9 @@ textarea.form-input {
   }
   .portfolio-content {
     width: 85%;
+  }
+  .top-card {
+    display: flex;
+    flex-direction: column;
   }
 }

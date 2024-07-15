@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <Nav currentPage={currentPage}></Nav>
-      <main>
+      <main style={{ width: "100%" }}>
         <Aside></Aside>
         <div className="main-content">
           <section style={{ scrollBehavior: "smooth" }}>

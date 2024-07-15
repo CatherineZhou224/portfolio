@@ -21,10 +21,15 @@ export default function Aside() {
             </h1>
             <h1 style={{ fontWeight: "100" }}>Zhou</h1>
           </div>
-
-          <p className="title">UX Designer</p>
-          <p style={{ color: "white", textAlign: "center" }}>+</p>
-          <p className="title">Web developer</p>
+          <div className="top-card">
+            <p className="title">UX Designer</p>
+            <p
+              style={{ color: "white", textAlign: "center", margin: "0 10px" }}
+            >
+              {" + "}
+            </p>
+            <p className="title">Web developer</p>
+          </div>
         </div>
       </div>
       <div className="sidebar-info_more">
