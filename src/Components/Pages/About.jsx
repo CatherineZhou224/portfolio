@@ -45,25 +45,25 @@ export default function About() {
                 <h3 className="h3 photos-title">photo Gallery</h3>
                 <ul className="photos-list has-scrollbar">
                   <li className="photos-item">
-                    <img src="images/photo-1.jpeg" alt="picture" />
+                    <img src="images/photo-1.jpeg" alt="tahoe" />
                   </li>
                   <li className="photos-item">
-                    <img src="images/photo-2.jpeg" alt="picture" />
+                    <img src="images/photo-2.jpeg" alt="pigeon" />
                   </li>
                   <li className="photos-item">
-                    <img src="images/photo-3.jpeg" alt="picture" />
+                    <img src="images/photo-3.jpeg" alt="aquarium" />
                   </li>
                   <li className="photos-item">
-                    <img src="images/photo-4.jpeg" alt="picture" />
+                    <img src="images/photo-4.jpeg" alt="chicago sunset" />
                   </li>
                   <li className="photos-item">
-                    <img src="images/photo-5.jpeg" alt="picture" />
+                    <img src="images/photo-5.jpeg" alt="sun shine on river" />
                   </li>
                   <li className="photos-item">
-                    <img src="images/photo-6.jpeg" alt="picture" />
+                    <img src="images/photo-6.jpeg" alt="sea coast" />
                   </li>
                   <li className="photos-item">
-                    <img src="images/photo-7.jpeg" alt="picture" />
+                    <img src="images/photo-7.jpeg" alt="ice mountain" />
                   </li>
                 </ul>
               </section>

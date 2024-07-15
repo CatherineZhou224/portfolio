@@ -36,7 +36,12 @@ export default function ProjectCard({ item }) {
         </Link>
         <p className="lead text-sans-serif">{description}</p>
         <span className="card-content text-sans-serif">{achievement}</span>
-        <a className="card-btn text-sans-serif" href={url} target="_blank">
+        <a
+          className="card-btn text-sans-serif"
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+        >
           Learn more
         </a>
       </div>

@@ -62,5 +62,5 @@ const projectCardData = [
 ];
 export default projectCardData;
 export function filteredData(category) {
-  return projectCardData.filter((item) => item.category == category);
+  return projectCardData.filter((item) => item.category === category);
 }

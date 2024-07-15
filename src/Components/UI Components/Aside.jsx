@@ -3,7 +3,7 @@ export default function Aside() {
     <aside className="sidebar">
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="/images/avatar.png" width="80" />
+          <img src="/images/avatar.png" width="80" alt="girl with hat" />
         </figure>
         <div className="info-content">
           <div
