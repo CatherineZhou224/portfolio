@@ -19,18 +19,37 @@ export default function About() {
               </header>
               <section className="about-text">
                 <p>
-                  I'm Creative Director and UI/UX Designer from Sydney,
-                  Australia, working in web development and print media. I enjoy
-                  turning complex problems into simple, beautiful and intuitive
-                  designs.
-                </p>
-                <p>
-                  My job is to build your website so that it is functional and
-                  user-friendly but at the same time attractive. Moreover, I add
-                  personal touch to your product and make sure that is
-                  eye-catching and easy to use. My aim is to bring across your
-                  message and identity in the most creative way. I created web
-                  design for many famous brand companies.
+                  I'm an inspired{" "}
+                  <span style={{ display: "inline", fontSize: "larger" }}>
+                    <strong>
+                      <em>Web Developer</em>
+                    </strong>
+                  </span>{" "}
+                  and{" "}
+                  <span style={{ display: "inline", fontSize: "larger" }}>
+                    <strong>
+                      <em>UI/UX Designer</em>
+                    </strong>
+                  </span>{" "}
+                  , currently studying Information Science at University of
+                  Michigan, Ann Arbor, focusing on the track of{" "}
+                  <span style={{ display: "inline", fontSize: "larger" }}>
+                    <strong>Agile Development</strong>
+                  </span>{" "}
+                  . I enjoy turning the imaginative and{" "}
+                  <span style={{ display: "inline", fontSize: "larger" }}>
+                    <strong>
+                      <em>innovative designs</em>
+                    </strong>
+                  </span>{" "}
+                  into tangible,{" "}
+                  <span style={{ display: "inline", fontSize: "larger" }}>
+                    <strong>
+                      <em>real-world interactions</em>
+                    </strong>
+                  </span>{" "}
+                  . Building inclusive and empowering solutions for all of the
+                  users.
                 </p>
               </section>
               <section className="service">
