@@ -34,7 +34,9 @@ export default function About() {
                   , currently studying Information Science at University of
                   Michigan, Ann Arbor, focusing on the track of{" "}
                   <span style={{ display: "inline", fontSize: "larger" }}>
-                    <strong>Agile Development</strong>
+                    <strong>
+                      <em>Agile Development</em>
+                    </strong>
                   </span>{" "}
                   . I enjoy turning the imaginative and{" "}
                   <span style={{ display: "inline", fontSize: "larger" }}>
