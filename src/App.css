@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 main {
-  margin: 0px 50px 75px;
+  margin: 0px 20px 75px;
   min-width: 259px;
   padding-top: 100px;
 }
@@ -619,7 +619,7 @@ textarea.form-input {
 }
 .image-container {
   flex: 0 0 50%;
-  max-width: 50%;
+  max-width: 70%;
 }
 .image {
   width: 100%;
@@ -694,6 +694,7 @@ textarea.form-input {
   main {
     padding-top: 100px;
     margin-bottom: 100px;
+    margin: 0px 50px 75px;
   }
   .sidebar,
   article {
@@ -789,7 +790,7 @@ textarea.form-input {
 @media (min-width: 768px) {
   .sidebar,
   article {
-    width: 700px;
+    width: 600px;
   }
   .contacts-list {
     grid-template-columns: 1fr 1fr;
@@ -815,7 +816,9 @@ textarea.form-input {
 @media (min-width: 1024px) {
   main {
     margin-bottom: 60px;
-    margin: 0px 12px 75px;
+  }
+  .image-container {
+    max-width: 50%;
   }
   .sidebar,
   article {
