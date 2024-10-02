@@ -17,7 +17,7 @@ export default function Nav({ currentPage }) {
             <Link to={"/Portfolio"}>Portfolio</Link>
           </li>
           <li>
-            <a href="/Jie Zhou_Resume.pdf" target="_blank">
+            <a href="/Zhou_Jie_Front_Resume.pdf" target="_blank">
               Resume
             </a>
           </li>
